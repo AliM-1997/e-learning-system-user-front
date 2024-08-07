@@ -1,0 +1,21 @@
+.file-list {
+  padding: 20px;
+}
+
+.file-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.file-list li {
+  margin: 5px 0;
+}
+
+.file-list a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.file-list a:hover {
+  text-decoration: underline;
+}

@@ -22,10 +22,11 @@ const Login = () => {
     console.log(data);
     if (data.token) {
       authLocal.saveToken(data.token);
+      authLocal.saveid(data.user._id);
       dispatch(
         loadUser({
           username: data.user.username,
-          password: data.user.password,
+          id: data.user._id,
         })
       );
       navigate("/home");

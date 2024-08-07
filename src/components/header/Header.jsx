@@ -9,15 +9,18 @@ const Header = () => {
     <div className=" flex header my-nav ">
       <div className="logo bold ">e-learning</div>
       <div className="flex link-container">
-        <Link className="nav-link" to="/enroll">
-          enroll
+        <Link className="nav-link" to="/home">
+          home
         </Link>
         <Link className="nav-link" to="/"></Link>
-        <Link className="nav-link" to="/download-file">
-          download File
+        <Link className="nav-link" to="/list-files">
+          File-list
         </Link>
-        <Link className="nav-link" to="/withDraw">
+        <Link className="nav-link" to="/withdrawal">
           Withdrawal Requests
+        </Link>
+        <Link className="nav-link" to="/request">
+          Requests
         </Link>
       </div>
       <Button

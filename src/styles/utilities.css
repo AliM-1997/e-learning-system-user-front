@@ -54,3 +54,12 @@
   width: 100vw;
   height: 100vh;
 }
+.padding {
+  padding: 20px;
+}
+.margin {
+  margin: 10px;
+}
+.gap {
+  gap: 30px;
+}

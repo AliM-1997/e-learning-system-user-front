@@ -3,8 +3,11 @@ import Input from "../../components/input/input";
 import Button from "../../components/button/Button";
 import { authRemote } from "../../data_source/remote/auth_remote";
 import { useNavigate } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const Signup = () => {
+  const state = useSelector((global) => global);
+  console.log("tessting from home", state);
   const [name, setName] = useState("");
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
